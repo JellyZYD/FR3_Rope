@@ -1,0 +1,273 @@
+{
+  "download_date": "2026-10-26",
+  "files": [
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/LICENSE",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/800a109a4bdd02cb60404d565db4ae16fb04a53b/LICENSE",
+      "repository": "google-deepmind/mujoco",
+      "commit": "800a109a4bdd02cb60404d565db4ae16fb04a53b",
+      "license": "Apache-2.0",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/plugin/elasticity/README.md",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/800a109a4bdd02cb60404d565db4ae16fb04a53b/plugin/elasticity/README.md",
+      "repository": "google-deepmind/mujoco",
+      "commit": "800a109a4bdd02cb60404d565db4ae16fb04a53b",
+      "license": "Apache-2.0",
+      "bytes": 1029,
+      "sha256": "7aae975840d03c1f8c629c76a11fc9d702c561c3427aa7eb0b4902065688c075"
+    },
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/model/plugin/elasticity/cable.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/800a109a4bdd02cb60404d565db4ae16fb04a53b/model/plugin/elasticity/cable.xml",
+      "repository": "google-deepmind/mujoco",
+      "commit": "800a109a4bdd02cb60404d565db4ae16fb04a53b",
+      "license": "Apache-2.0",
+      "bytes": 1803,
+      "sha256": "7253fbe844e15fa6956936fd87cf1413cc192c0ea8ca5188962f0237b7867d99"
+    },
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/model/plugin/elasticity/coil.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/800a109a4bdd02cb60404d565db4ae16fb04a53b/model/plugin/elasticity/coil.xml",
+      "repository": "google-deepmind/mujoco",
+      "commit": "800a109a4bdd02cb60404d565db4ae16fb04a53b",
+      "license": "Apache-2.0",
+      "bytes": 3778,
+      "sha256": "6dad84eb2ae01585d4494f77ed27a13392f0ff2f02902f56e5b94927dfc3ca5a"
+    },
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/model/plugin/elasticity/scene.xml",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/800a109a4bdd02cb60404d565db4ae16fb04a53b/model/plugin/elasticity/scene.xml",
+      "repository": "google-deepmind/mujoco",
+      "commit": "800a109a4bdd02cb60404d565db4ae16fb04a53b",
+      "license": "Apache-2.0",
+      "bytes": 1637,
+      "sha256": "8b5e37baf8c50c0496858fe0d552bdfebd51b6ee934f1ee3875e917c936434ec"
+    },
+    {
+      "path": "models/cables/cable_chain/upstream/LICENSE",
+      "url": "https://raw.githubusercontent.com/poisson-labs/cable-insertion/3df78c53e43a75f2357b4782e6c3f286d463d689/LICENSE",
+      "repository": "poisson-labs/cable-insertion",
+      "commit": "3df78c53e43a75f2357b4782e6c3f286d463d689",
+      "license": "MIT",
+      "bytes": 1089,
+      "sha256": "2a7341175716695a1f9bbf60e45f6a41042d9f4507755d05897f0683ddabefb5"
+    },
+    {
+      "path": "models/cables/cable_chain/upstream/README.md",
+      "url": "https://raw.githubusercontent.com/poisson-labs/cable-insertion/3df78c53e43a75f2357b4782e6c3f286d463d689/README.md",
+      "repository": "poisson-labs/cable-insertion",
+      "commit": "3df78c53e43a75f2357b4782e6c3f286d463d689",
+      "license": "MIT",
+      "bytes": 5594,
+      "sha256": "c0e00535a3b5f0cf16df0d6c067fc1b81e27589b3267046170b960a6eba088b8"
+    },
+    {
+      "path": "models/cables/cable_chain/upstream/envs/assets/cable_scene.xml",
+      "url": "https://raw.githubusercontent.com/poisson-labs/cable-insertion/3df78c53e43a75f2357b4782e6c3f286d463d689/envs/assets/cable_scene.xml",
+      "repository": "poisson-labs/cable-insertion",
+      "commit": "3df78c53e43a75f2357b4782e6c3f286d463d689",
+      "license": "MIT",
+      "bytes": 2482,
+      "sha256": "98a719e1b366b30a6d97eb372b20dd95bbfe8a002b0a51a98b360d288dc0cdd7"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/LICENSE",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/LICENSE",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 1071,
+      "sha256": "e50a2b18143ece3c4e7391b089f4b39c631f647b6fd32f7f12436e51b76debd5"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/README.md",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/README.md",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 10341,
+      "sha256": "b8f75162040640c8b8cc7f516580bdb2ce4d9f0f00907adff8a13af1ba893981"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Multi Gripper 4.xml",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Multi%20Gripper%204.xml",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 98011,
+      "sha256": "14235325cd5e29c80e67655d5d42cf4e61122c2512a48a1583517dbd89b2d023"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/S0_harness.npy",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/S0_harness.npy",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 27144,
+      "sha256": "3723a35faee6e11372919face5de385dc614cab13f17f7938ac2e06d82f3f15c"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/001_P33553-Part 3.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/001_P33553-Part%203.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 5685084,
+      "sha256": "fefd9f18ae2812eb0c676743b77117276e0a8461caace08f38c3a3774466a4e6"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Schaltbet_A_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Schaltbet_A_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 363384,
+      "sha256": "c6a1e3cb17700d07297606ba3ed36b161554086d618fabc9259ca17a7983b56a"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Schaltbet_A_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Schaltbet_A_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 363384,
+      "sha256": "0d37df1e2eddef36893de4bf1de0fb94476119be143abbe41b5a90b8826dce66"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Schaltbet_B_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Schaltbet_B_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 257184,
+      "sha256": "f6c9c2b3aba00e6e9dc9f8d979aa6364a4979f61ce808a464b0086dac1a34b08"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Schaltbet_B_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Schaltbet_B_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 283684,
+      "sha256": "9ebfa39a01cfbff24f9ba9cbec4263e099cffd3e85386302d171fb5d937c93d4"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Taststart_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Taststart_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 330584,
+      "sha256": "ed5b09ff29c5a2c1433538a7ff2189d181ae75b8b035a54d0b7e91aee8c044c3"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Taststart_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Taststart_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 350084,
+      "sha256": "182b5785af4a9ba5d4e095de56046a9ea47dbcbe482f101141c09e7ef26cfb8b"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Bedkom_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Bedkom_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 349784,
+      "sha256": "1d6e221770bb3ce956184a76a99f0d8051fa7b18308acdb884e227df89f78651"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Bedkom_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Bedkom_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 349784,
+      "sha256": "2b550e3d61a75ab3bb3983420914146b665c69435a23dc8d2343d64532cb406b"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Lsregler_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Lsregler_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 257184,
+      "sha256": "c50990359d148c6ca8702687c191c28833b37a1dfa6fbcc4626d18b0cc3a6971"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Lsregler_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Lsregler_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 283684,
+      "sha256": "76890418239dabe87031407524ce5486fe86e3f0403af231b53147a6a8d4bf21"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Lade1_A_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Lade1_A_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 369684,
+      "sha256": "ee398754e887a428f3218247ac98dd07ef974110cda4b2ccd413433280aa2044"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Lade1_A_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Lade1_A_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 359184,
+      "sha256": "01b99937da7bddbd0e9d8213e1afe042b9005fb9568e8cb0301328e16882598b"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Lade1_B_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Lade1_B_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 349684,
+      "sha256": "97f1f47119dd0c7649fbad9fd083319810ff75acc526e1a3870278bf1bf1a2f4"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Lade1_B_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Lade1_B_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 361084,
+      "sha256": "394054d6e7e878ce7988a6da9464e438b9927763b00154ac2e67e68258447b70"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Antkessy1_Finger_1.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Antkessy1_Finger_1.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 315584,
+      "sha256": "3b4036207e3286f97046744cf6637471b7378e5ceec6bbf318a1642aed4f4b12"
+    },
+    {
+      "path": "models/cables/wire_harness/upstream/assets/Antkessy1_Finger_2.stl",
+      "url": "https://raw.githubusercontent.com/KishanThummar007/WireHarness-MultiGripper-RL/4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6/assets/Antkessy1_Finger_2.stl",
+      "repository": "KishanThummar007/WireHarness-MultiGripper-RL",
+      "commit": "4d9648b8ea2a6b813c4fcbec103e7fe6f508a4f6",
+      "license": "MIT",
+      "bytes": 339284,
+      "sha256": "b1f17ff291634f18c4d7ef01b876de49dbdd369bec764ebaa1499e6c5e4b3937"
+    }
+  ],
+  "adaptation": {
+    "path": "models/cables/wire_harness/harness.xml",
+    "changes": [
+      "Insert missing whitespace between XML attributes: 1",
+      "Set compiler meshdir to upstream/assets"
+    ]
+  }
+}

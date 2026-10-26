@@ -1,0 +1,18 @@
+{
+  "downloaded_files_checked": 27,
+  "gelsight_step_files_checked": 2,
+  "digit_mjcf_and_urdf_loaded": true,
+  "d435i_rgb_shape": [
+    240,
+    320,
+    3
+  ],
+  "depth_shape": [
+    240,
+    320
+  ],
+  "depth_center_m": 0.44899994134902954,
+  "tactile_optics_integrated": false,
+  "sensors_added_to_ppo": false,
+  "note": "Asset-only validation predating the local tactile simulator; see tactile_validation.json."
+}

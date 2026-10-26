@@ -1,0 +1,287 @@
+{
+  "download_date": "2026-10-24",
+  "files": [
+    {
+      "repository": "gelsightinc/gsrobotics",
+      "commit": "321d6a22da64529138ff10237335038fd8c5189f",
+      "license_note": "Repository LICENSE: GPL-3.0; CAD may contain additional notices",
+      "url": "https://raw.githubusercontent.com/gelsightinc/gsrobotics/321d6a22da64529138ff10237335038fd8c5189f/LICENSE",
+      "path": "models\\sensors\\gelsight_mini\\upstream\\LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "extracted": []
+    },
+    {
+      "repository": "gelsightinc/gsrobotics",
+      "commit": "321d6a22da64529138ff10237335038fd8c5189f",
+      "license_note": "Repository LICENSE: GPL-3.0; CAD may contain additional notices",
+      "url": "https://raw.githubusercontent.com/gelsightinc/gsrobotics/321d6a22da64529138ff10237335038fd8c5189f/README.md",
+      "path": "models\\sensors\\gelsight_mini\\upstream\\README.md",
+      "bytes": 25935,
+      "sha256": "53bdb9a6aca4761f9dd00055518aca7d018113c8ec0dd1f46573cd5bf34b0560",
+      "extracted": []
+    },
+    {
+      "repository": "gelsightinc/gsrobotics",
+      "commit": "321d6a22da64529138ff10237335038fd8c5189f",
+      "license_note": "Repository LICENSE: GPL-3.0; CAD may contain additional notices",
+      "url": "https://raw.githubusercontent.com/gelsightinc/gsrobotics/321d6a22da64529138ff10237335038fd8c5189f/docs/CAD/gsmini_shell.zip",
+      "path": "models\\sensors\\gelsight_mini\\upstream\\docs\\CAD\\gsmini_shell.zip",
+      "bytes": 590188,
+      "sha256": "6cd0af344e7fb4a30dd05d5149e57e607ce1ab0a4ce5fc88d2722ca636978a8a",
+      "extracted": [
+        {
+          "path": "models\\sensors\\gelsight_mini\\upstream\\docs\\CAD\\gsmini_shell\\gsmini_shell.stp",
+          "bytes": 2581215,
+          "sha256": "ed01357ae11417c12b422193eb130b790e0a0e6c90e7f5dbbd5b1043c8e7b080"
+        }
+      ]
+    },
+    {
+      "repository": "gelsightinc/gsrobotics",
+      "commit": "321d6a22da64529138ff10237335038fd8c5189f",
+      "license_note": "Repository LICENSE: GPL-3.0; CAD may contain additional notices",
+      "url": "https://raw.githubusercontent.com/gelsightinc/gsrobotics/321d6a22da64529138ff10237335038fd8c5189f/docs/CAD/panda_adapter_gsmini.zip",
+      "path": "models\\sensors\\gelsight_mini\\upstream\\docs\\CAD\\panda_adapter_gsmini.zip",
+      "bytes": 18992,
+      "sha256": "1a76e7ec48eed4ab18ac18c90794846f1d20084db10cf6cbd8822371f64f4cde",
+      "extracted": [
+        {
+          "path": "models\\sensors\\gelsight_mini\\upstream\\docs\\CAD\\panda_adapter_gsmini\\panda_adapter_gsmini.stp",
+          "bytes": 94540,
+          "sha256": "59688c8cbfb51413aa360b96276de4c1641d0ab78674ec1b903009ac2d04124f"
+        }
+      ]
+    },
+    {
+      "repository": "facebookresearch/tacto",
+      "commit": "a21d0c4626d74a546d94859226c2fea348babb6a",
+      "license_note": "MIT",
+      "url": "https://raw.githubusercontent.com/facebookresearch/tacto/a21d0c4626d74a546d94859226c2fea348babb6a/LICENSE",
+      "path": "models\\sensors\\digit\\upstream\\LICENSE",
+      "bytes": 1085,
+      "sha256": "a80c79b8f80e824c8ea0612b7abadb9c92c48673cf0adc20b2a7f43e2b19faa0",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/tacto",
+      "commit": "a21d0c4626d74a546d94859226c2fea348babb6a",
+      "license_note": "MIT",
+      "url": "https://raw.githubusercontent.com/facebookresearch/tacto/a21d0c4626d74a546d94859226c2fea348babb6a/README.md",
+      "path": "models\\sensors\\digit\\upstream\\README.md",
+      "bytes": 5347,
+      "sha256": "33f942a542c9464757729a5adb1ab6c0444a3bbfce9d5e55a8c507418a4de578",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/tacto",
+      "commit": "a21d0c4626d74a546d94859226c2fea348babb6a",
+      "license_note": "MIT",
+      "url": "https://raw.githubusercontent.com/facebookresearch/tacto/a21d0c4626d74a546d94859226c2fea348babb6a/meshes/digit.urdf",
+      "path": "models\\sensors\\digit\\upstream\\meshes\\digit.urdf",
+      "bytes": 663,
+      "sha256": "8d65f20dbd4b29fedad006b297e0e593184ab30bd41cf6fa97f0e50f06744510",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/tacto",
+      "commit": "a21d0c4626d74a546d94859226c2fea348babb6a",
+      "license_note": "MIT",
+      "url": "https://raw.githubusercontent.com/facebookresearch/tacto/a21d0c4626d74a546d94859226c2fea348babb6a/meshes/digit.STL",
+      "path": "models\\sensors\\digit\\upstream\\meshes\\digit.STL",
+      "bytes": 1461584,
+      "sha256": "7ea789c949a371d68b2e8b33cc1c999bc495680b15c5f84a3765aec5f96c9f06",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/tacto",
+      "commit": "a21d0c4626d74a546d94859226c2fea348babb6a",
+      "license_note": "MIT",
+      "url": "https://raw.githubusercontent.com/facebookresearch/tacto/a21d0c4626d74a546d94859226c2fea348babb6a/tacto/config_digit.yml",
+      "path": "models\\sensors\\digit\\upstream\\tacto\\config_digit.yml",
+      "bytes": 2431,
+      "sha256": "b17e7ae92723c53d118ad9fc1c947f960f14f6230014080f4f648ed8fbf3d338",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/digit-design",
+      "commit": "de292229d43eed1deba58b856b2fe1ee04097631",
+      "license_note": "CC-BY-NC (see LICENSE)",
+      "url": "https://raw.githubusercontent.com/facebookresearch/digit-design/de292229d43eed1deba58b856b2fe1ee04097631/LICENSE",
+      "path": "models\\sensors\\digit\\design\\upstream\\LICENSE",
+      "bytes": 19729,
+      "sha256": "d70f572869ebd5ca039d3b3173d6af68406669fd04201dd2ad12f8b5a5f8475d",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/digit-design",
+      "commit": "de292229d43eed1deba58b856b2fe1ee04097631",
+      "license_note": "CC-BY-NC (see LICENSE)",
+      "url": "https://raw.githubusercontent.com/facebookresearch/digit-design/de292229d43eed1deba58b856b2fe1ee04097631/README.md",
+      "path": "models\\sensors\\digit\\design\\upstream\\README.md",
+      "bytes": 3286,
+      "sha256": "8daf5e8cfbf9b155dc0836e7d6e29b8218b1e5b0744d0f7c1f8d0a73aa0b0cd9",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/digit-design",
+      "commit": "de292229d43eed1deba58b856b2fe1ee04097631",
+      "license_note": "CC-BY-NC (see LICENSE)",
+      "url": "https://raw.githubusercontent.com/facebookresearch/digit-design/de292229d43eed1deba58b856b2fe1ee04097631/DIGIT/mechanical/EnclosureAssy_IM_Final.STEP",
+      "path": "models\\sensors\\digit\\design\\upstream\\DIGIT\\mechanical\\EnclosureAssy_IM_Final.STEP",
+      "bytes": 2228015,
+      "sha256": "9d0031b1409d7e30f5839d2a5a9ff85c62548f1bd31b9e32cb02e94502f18b42",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/digit-design",
+      "commit": "de292229d43eed1deba58b856b2fe1ee04097631",
+      "license_note": "CC-BY-NC (see LICENSE)",
+      "url": "https://raw.githubusercontent.com/facebookresearch/digit-design/de292229d43eed1deba58b856b2fe1ee04097631/DIGIT/mechanical/EnclosureAssy_IM_Final.STL",
+      "path": "models\\sensors\\digit\\design\\upstream\\DIGIT\\mechanical\\EnclosureAssy_IM_Final.STL",
+      "bytes": 26894984,
+      "sha256": "76847fe83e0881b933f6f675c77cd7f30df83e556abfde14add33d9eef677361",
+      "extracted": []
+    },
+    {
+      "repository": "facebookresearch/digit-design",
+      "commit": "de292229d43eed1deba58b856b2fe1ee04097631",
+      "license_note": "CC-BY-NC (see LICENSE)",
+      "url": "https://raw.githubusercontent.com/facebookresearch/digit-design/de292229d43eed1deba58b856b2fe1ee04097631/DIGIT/gel/Digit%20Gel.STEP",
+      "path": "models\\sensors\\digit\\design\\upstream\\DIGIT\\gel\\Digit Gel.STEP",
+      "bytes": 283620,
+      "sha256": "63387d4344930c5430bfb571936596522caa4a2b2d687efbabd2696cf35f919d",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/LICENSE",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\LICENSE",
+      "bytes": 11370,
+      "sha256": "1c72ac904e86caaa9dbf1740d8d4737264712699e8a7f416cfe15591f21a2cbf",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/README.md",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\README.md",
+      "bytes": 1121,
+      "sha256": "a3b3a71e2d2868fda3a1f7f1c79b88a3b0b726e0710b282c177f790fd6545474",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/d435i.xml",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\d435i.xml",
+      "bytes": 2174,
+      "sha256": "4a1dee17959d0f4b087738a2ef0ff417e36291867bda60bcf1296bfb652449f3",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/CHANGELOG.md",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\CHANGELOG.md",
+      "bytes": 148,
+      "sha256": "35adbd73c587631ec5f4de9543b16dc51364899ecaeb0b9581f80789a0d50b9c",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_0.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_0.obj",
+      "bytes": 46268,
+      "sha256": "dbaa9c4f2762320875ccc23f162df8d0879910611bbc4a53c677cc381642301e",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_1.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_1.obj",
+      "bytes": 263575,
+      "sha256": "5ee79cc2bfee84b91ae9d04b508f6a4cd3a1caae989114d9ab043fbde6ac6d41",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_2.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_2.obj",
+      "bytes": 606555,
+      "sha256": "2835a8c85afde2b561f01da2c722537637a1c3309b1b9577dfda093f26936dec",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_3.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_3.obj",
+      "bytes": 74736,
+      "sha256": "cc6448c05f215b02f04c1960748b2bd5ef51c276e40f327c3b9e0e012e6b61b8",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_4.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_4.obj",
+      "bytes": 11432103,
+      "sha256": "bbc952be30c194decf1e86d107edeeb5dfa3dd96f972202f5a99ebbd0b39b701",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_5.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_5.obj",
+      "bytes": 1022935,
+      "sha256": "8495497738082c23f481b7809ed365bdfdc8f05717da9030880c0091d1440c05",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_6.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_6.obj",
+      "bytes": 1529122,
+      "sha256": "1f3733f318d55cbea0f6968596881454eb0902c74b85aa846e45f02a1efd26e7",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_7.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_7.obj",
+      "bytes": 146727,
+      "sha256": "da2592b7c9dacc653cbfbbb6e47ddde74bfd76bb3d7627c4b7a145b4984a0c62",
+      "extracted": []
+    },
+    {
+      "repository": "google-deepmind/mujoco_menagerie",
+      "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+      "license_note": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/realsense_d435i/assets/d435i_8.obj",
+      "path": "models\\sensors\\realsense_d435i\\upstream\\assets\\d435i_8.obj",
+      "bytes": 30871426,
+      "sha256": "fc882d749abb4392d89b02fcc4c12b7b857899b32d88e9d98cc19f66253ecd90",
+      "extracted": []
+    }
+  ]
+}

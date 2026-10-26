@@ -1,0 +1,54 @@
+<!-- 本地适配：增加理想针孔相机，用 MuJoCo Renderer 输出 RGB/深度；不是双目噪声仿真。上游 Apache-2.0。 -->
+<mujoco model="d435i">
+  <compiler angle="radian" meshdir="upstream/assets" />
+  <visual>
+    <global elevation="-90" />
+  </visual>
+  <default>
+    <default class="d435i">
+      <material specular="0" shininess="0.25" />
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="collision">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+  </default>
+  <asset>
+    <material name="Black_Acrylic" class="d435i" rgba="0.07036 0.07036 0.07036 1" />
+    <material name="Cameras_Gray" class="d435i" rgba="0.296138 0.296138 0.296138 1" />
+    <material name="IR_Emitter_Lens" class="d435i" rgba="0.28744 0.665387 0.327778 1" />
+    <material name="IR_Lens" class="d435i" rgba="0.035601 0.035601 0.035601 1" />
+    <material name="IR_Rim" class="d435i" rgba="0.799102 0.806952 0.799103 1" />
+    <material name="Metal_Casing" class="d435i" />
+    <material name="RGB_Pupil" class="d435i" rgba="0.08714 0.002866 0.009346 1" />
+    <mesh name="d435i_0" content_type="model/obj" file="d435i_0.obj" />
+    <mesh name="d435i_1" content_type="model/obj" file="d435i_1.obj" />
+    <mesh name="d435i_2" content_type="model/obj" file="d435i_2.obj" />
+    <mesh name="d435i_3" content_type="model/obj" file="d435i_3.obj" />
+    <mesh name="d435i_4" content_type="model/obj" file="d435i_4.obj" />
+    <mesh name="d435i_5" content_type="model/obj" file="d435i_5.obj" />
+    <mesh name="d435i_6" content_type="model/obj" file="d435i_6.obj" />
+    <mesh name="d435i_7" content_type="model/obj" file="d435i_7.obj" />
+    <mesh name="d435i_8" content_type="model/obj" file="d435i_8.obj" />
+  </asset>
+  <worldbody>
+    <light pos="0 0 1.5" type="directional" />
+    <body name="d435i" childclass="d435i">
+      <geom class="visual" quat="1 0 0 0" mass="0" material="IR_Lens" mesh="d435i_0" />
+      <geom class="visual" quat="1 0 0 0" mass="0" material="IR_Emitter_Lens" mesh="d435i_1" />
+      <geom class="visual" quat="1 0 0 0" mass="0" material="IR_Rim" mesh="d435i_2" />
+      <geom class="visual" quat="1 0 0 0" mass="0" material="IR_Lens" mesh="d435i_3" />
+      <geom class="visual" quat="1 0 0 0" mass="0" material="Cameras_Gray" mesh="d435i_4" />
+      <geom class="visual" quat="1 0 0 0" mass="0" material="Black_Acrylic" mesh="d435i_5" />
+      <geom class="visual" pos="0 0 0" quat="1 0 0 0" mass="0" material="Black_Acrylic" mesh="d435i_6" />
+      <geom class="visual" pos="0 0 0" quat="1 0 0 0" mass="0" material="RGB_Pupil" mesh="d435i_7" />
+      <geom class="visual" quat="1 0 0 0" mass="0.072" material="Metal_Casing" mesh="d435i_8" />
+      <geom class="collision" size="0.0133328 0.0316322" pos="7.48125e-05 0.00018813 -0.0124624" quat="0.029024 0.708312 0.0275527 0.704764" type="capsule" mass="0" />
+      <!-- 该上游网格镜面朝局部 +Z；视点放在 RGB 镜头外侧以避免外壳遮挡。 -->
+      <!-- 此位置与 58 度视角为名义示例，不是设备的内外参标定。 -->
+      <camera name="rgbd" pos="0.0325 0 0.001" xyaxes="-1 0 0 0 1 0" fovy="58" />
+    </body>
+  </worldbody>
+</mujoco>

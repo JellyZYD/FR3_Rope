@@ -1,0 +1,4 @@
+<!-- MuJoCo 官方螺旋线缆的便捷入口；需要 CPU elasticity 插件。 -->
+<mujoco model="official elastic coil">
+  <include file="upstream/model/plugin/elasticity/coil.xml"/>
+</mujoco>

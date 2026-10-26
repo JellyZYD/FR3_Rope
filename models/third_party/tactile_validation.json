@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-24",
+  "model": "compliant rigid contact + approximate 2.5D gel height field + three-color shading",
+  "hardware_calibrated": false,
+  "fem": false,
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 5,
+    "gpu_cases_executed": true
+  },
+  "demo": {
+    "peak_depth_mm": 1.41088105738163,
+    "peak_normal_force_N": 0.41410431953095883,
+    "released_depth_mm": 2.747436609815135e-09
+  },
+  "training": {
+    "baseline": {
+      "mean_distance_m": 0.13398142158985138,
+      "success_rate": 0.0,
+      "failed_rate": 0.0,
+      "num_envs": 256
+    },
+    "best": {
+      "mean_distance_m": 0.01844937913119793,
+      "success_rate": 1.0,
+      "failed_rate": 0.0,
+      "num_envs": 256,
+      "iteration": 100
+    },
+    "latest": {
+      "mean_distance_m": 0.01844937913119793,
+      "success_rate": 1.0,
+      "failed_rate": 0.0,
+      "num_envs": 256,
+      "iteration": 100
+    }
+  },
+  "cpu_replay": {
+    "gpu_checkpoint_evaluation": {
+      "mean_distance_m": 0.01844937913119793,
+      "success_rate": 1.0,
+      "failed_rate": 0.0,
+      "num_envs": 256,
+      "iteration": 100
+    },
+    "cpu_replay_episodes": 16,
+    "cpu_mean_distance_m": 0.017923431969717733,
+    "cpu_success_rate": 1.0,
+    "cpu_max_depth_mm": 1.9996706396341324,
+    "obs_dim": 153
+  },
+  "legacy_25d_checkpoint_evaluated": true,
+  "gelsight_gpu_training_smoke_passed": true
+}

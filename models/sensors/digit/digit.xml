@@ -1,0 +1,17 @@
+<!-- DIGIT 外形的 MuJoCo 入口；网格来自 TACTO（MIT），不实现凝胶变形或触觉成像。 -->
+<mujoco model="digit geometry">
+  <compiler angle="radian" meshdir="upstream/meshes"/>
+  <asset>
+    <!-- TACTO 网格已经以米为单位，不再乘 0.001。 -->
+    <mesh name="digit_shell" file="digit.STL"/>
+  </asset>
+  <worldbody>
+    <light pos="0.1 0 0.2"/>
+    <body name="digit">
+      <!-- 这里只提供安装外观，关闭外壳碰撞，避免凸包封住感测窗口。 -->
+      <geom type="mesh" mesh="digit_shell" rgba="0.25 0.25 0.3 1" contype="0" conaffinity="0"/>
+      <!-- 感测中心参考 TACTO 配置：X 朝外，位置和方向用于后续光学适配。 -->
+      <site name="gel_center" pos="0.022 0 0.015" size="0.001" rgba="1 0.3 0.2 1"/>
+    </body>
+  </worldbody>
+</mujoco>

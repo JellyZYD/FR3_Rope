@@ -1,0 +1,36 @@
+{
+  "mujoco_version": "3.17.0",
+  "backend": "CPU MuJoCo; GPU Warp not checked",
+  "results": [
+    {
+      "file": "models/robots/franka_hand/hand.xml",
+      "nq": 2,
+      "nu": 1,
+      "steps": 3000,
+      "finger_positions_open_m": [
+        0.04000000000008515,
+        0.04000000000008515
+      ],
+      "finger_positions_closed_m": [
+        1.3250232541697533e-15,
+        1.3250232541697533e-15
+      ],
+      "warnings": 0
+    },
+    {
+      "file": "models/scenes/fr3_with_hand.xml",
+      "nq": 9,
+      "nu": 8,
+      "steps": 3000,
+      "finger_positions_open_m": [
+        0.04000000333218477,
+        0.03999995352661695
+      ],
+      "finger_positions_closed_m": [
+        4.892497839104228e-08,
+        -9.621679026694532e-10
+      ],
+      "warnings": 0
+    }
+  ]
+}

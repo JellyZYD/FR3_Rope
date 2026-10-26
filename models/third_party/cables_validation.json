@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-26",
+  "mujoco_version": "3.17.0",
+  "results": [
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/model/plugin/elasticity/cable.xml",
+      "loaded": true,
+      "nq": 157,
+      "nv": 118,
+      "nbody": 42,
+      "nplugin": 1,
+      "neq": 1,
+      "steps": 100,
+      "finite": true,
+      "warnings": [],
+      "elapsed_s": 0.05065879999892786,
+      "gpu_warp": {
+        "tested": false,
+        "error": "Body plugins not supported."
+      }
+    },
+    {
+      "path": "models/cables/mujoco_elasticity/upstream/model/plugin/elasticity/coil.xml",
+      "loaded": true,
+      "nq": 280,
+      "nv": 211,
+      "nbody": 72,
+      "nplugin": 2,
+      "neq": 1,
+      "steps": 100,
+      "finite": true,
+      "warnings": [],
+      "elapsed_s": 0.05545230000279844,
+      "gpu_warp": {
+        "tested": false,
+        "error": "Body plugins not supported."
+      }
+    },
+    {
+      "path": "models/cables/cable_chain/upstream/envs/assets/cable_scene.xml",
+      "loaded": true,
+      "nq": 23,
+      "nv": 18,
+      "nbody": 8,
+      "nplugin": 0,
+      "neq": 0,
+      "steps": 100,
+      "finite": true,
+      "warnings": [],
+      "elapsed_s": 0.007552900002337992,
+      "gpu_warp": {
+        "tested": true,
+        "worlds": 4,
+        "steps": 101,
+        "finite": true,
+        "worlds_have_distinct_states": true
+      }
+    },
+    {
+      "path": "models/cables/wire_harness/harness.xml",
+      "loaded": true,
+      "nq": 1778,
+      "nv": 1396,
+      "nbody": 478,
+      "nplugin": 13,
+      "neq": 202,
+      "steps": 100,
+      "finite": true,
+      "warnings": [],
+      "elapsed_s": 0.6729073000024073,
+      "gpu_warp": {
+        "tested": false,
+        "error": "Body plugins not supported."
+      }
+    }
+  ],
+  "local_entrypoints_loaded": [
+    "models/cables/mujoco_elasticity/cable.xml",
+    "models/cables/mujoco_elasticity/coil.xml",
+    "models/cables/cable_chain/cable.xml",
+    "models/cables/wire_harness/harness.xml"
+  ],
+  "snapshot_applied": false,
+  "snapshot_header": {
+    "shape": [
+      3377
+    ],
+    "dtype": "float64"
+  }
+}

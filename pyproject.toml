@@ -1,0 +1,17 @@
+[project]
+name = "fr3-gpu-rl"
+version = "0.1.0"
+description = "MuJoCo Warp GPU parallel reinforcement learning starter"
+requires-python = ">=3.12,<3.13"
+dependencies = ["mujoco-warp", "torch>=2.10", "gymnasium>=1.0", "numpy", "tensorboard", "pillow"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[tool.uv]
+package = false

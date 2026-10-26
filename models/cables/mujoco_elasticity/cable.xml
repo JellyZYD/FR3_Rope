@@ -1,0 +1,4 @@
+<!-- MuJoCo 官方弹性线缆的便捷入口；原模型和 Apache-2.0 许可证保留在 upstream。 -->
+<mujoco model="official elastic cable">
+  <include file="upstream/model/plugin/elasticity/cable.xml"/>
+</mujoco>

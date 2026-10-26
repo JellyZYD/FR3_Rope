@@ -1,0 +1,76 @@
+{
+  "repository": "https://github.com/google-deepmind/mujoco_menagerie",
+  "upstream_path": "franka_emika_panda",
+  "ref": "main",
+  "download_date": "2026-10-23",
+  "license": "Apache-2.0",
+  "note": "Standalone Panda Gripper / Franka Hand asset; not an FR3-specific calibrated model.",
+  "files": [
+    {
+      "path": "hand.xml",
+      "bytes": 4547,
+      "sha256": "d2a6539d0fd7c55c75c14f11c78f04505ee33f31d93e6112e3ad7120e5ee786a",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/hand.xml"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10173,
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2908,
+      "sha256": "e12684556d0154bdf2a9e77e7009ed680cd06ca89904f9e6303050f9fe59300c",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/README.md"
+    },
+    {
+      "path": "assets/hand.stl",
+      "bytes": 10084,
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/hand.stl"
+    },
+    {
+      "path": "assets/hand_0.obj",
+      "bytes": 9091,
+      "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/hand_0.obj"
+    },
+    {
+      "path": "assets/hand_1.obj",
+      "bytes": 121863,
+      "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/hand_1.obj"
+    },
+    {
+      "path": "assets/hand_2.obj",
+      "bytes": 596001,
+      "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/hand_2.obj"
+    },
+    {
+      "path": "assets/hand_3.obj",
+      "bytes": 902145,
+      "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/hand_3.obj"
+    },
+    {
+      "path": "assets/hand_4.obj",
+      "bytes": 151988,
+      "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/hand_4.obj"
+    },
+    {
+      "path": "assets/finger_0.obj",
+      "bytes": 87872,
+      "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/finger_0.obj"
+    },
+    {
+      "path": "assets/finger_1.obj",
+      "bytes": 64651,
+      "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "url": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/main/franka_emika_panda/assets/finger_1.obj"
+    }
+  ]
+}

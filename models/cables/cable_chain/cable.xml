@@ -1,0 +1,4 @@
+<!-- 无插件短线缆链入口：球关节、关节弹簧、阻尼和末端连接器；原模型为 MIT。 -->
+<mujoco model="native cable chain">
+  <include file="upstream/envs/assets/cable_scene.xml"/>
+</mujoco>
